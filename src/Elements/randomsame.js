@@ -8,8 +8,7 @@
   var ran=[]
   for (var i = 0; i < amount; i++) {
        
-    ran.push(random(min, max).toString());
-    ran.push(", ")
+    ran.push(random(min, max))
         }
-  return(ran)
+  return(ran.join(','))
 }
